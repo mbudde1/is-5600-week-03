@@ -84,6 +84,7 @@ function respondJson(req, res) {
   res.setHeader('Content-Type', 'application/json');
   res.end(JSON.stringify({ text: 'hi', numbers: [1, 2, 3] }));
 }
+
 ```
 
 We will also add a third function, this will be used to return a 404 response not found.
